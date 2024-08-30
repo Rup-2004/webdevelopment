@@ -1,0 +1,229 @@
+
+
+@media (min-width:319px) and (max-width:480px){
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        background-color: blanchedalmond;
+    }
+    h1{
+        font-family: cursive;
+        color: rgb(24, 201, 98);
+        font-size: 40px;
+        font-weight: bolder;
+        margin : 10px 25% 0px 25%;
+        justify-content: center;
+    }
+    
+    .boxs{
+        display: block;
+        justify-content: center;
+        margin : 100px 8% 10px ;
+        
+    }
+    
+    .box{
+        max-width: 250px;
+        min-width: 120px;
+        min-height: 120px;
+        margin: 10px 10px 10px 10px;
+        border: 10px solid black;
+        border-width: 10px 10px 10px 10px;
+        border-radius: 10%;
+    }
+    
+    .green{
+        background-color: rgb(106, 202, 114);
+        
+    }
+    
+    .red{
+        background-color: red;
+    }
+    
+    .yellow{
+        background-color: yellow;
+    }
+    
+    .blue{
+        background-color: blue;
+    }
+    
+    .clickButton{
+        box-shadow: 0 30px 40px 0 #dbddf3;
+        opacity: 0.5;
+        background-color: black;
+    }
+    
+    .bodyBackground{
+        background-color: rgb(223, 108, 108);
+    }
+    .handset{
+        background-color: #4CAF50; 
+        color: white; 
+        border: none; 
+        padding: 15px 32px; 
+        text-align: center; 
+        text-decoration: none; 
+        display: inline-block; 
+        font-size: 24px; 
+        margin: 50px 25% 40px 25%; 
+        border-radius: 10px; 
+}
+.handset:hover{
+    background-color: #397c3b;
+}
+
+.addcsshandset{
+display: none;
+}
+}
+
+@media (min-width:481px) and (max-width:1200px){
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        background-color: blanchedalmond;
+    }
+    h1{
+        font-family: cursive;
+        color: rgb(24, 201, 98);
+        font-size: 80px;
+        font-weight: bolder;
+        margin : 10px 15% 0px 15%;
+        justify-content: center;
+    }
+    
+    .boxs{
+        display: block;
+        justify-content: center;
+        margin : 100px 8% 10px ;
+        
+    }
+    
+    .box{
+        max-width: 400px;
+        min-width: 250px;
+        min-height: 250px;
+        max-height: 400px;
+        margin: 10px 10px 10px 10px;
+        border: 10px solid black;
+        border-width: 10px 10px 10px 10px;
+        border-radius: 20%;
+    }
+    
+    .green{
+        background-color: rgb(106, 202, 114);
+        
+    }
+    
+    .red{
+        background-color: red;
+    }
+    
+    .yellow{
+        background-color: yellow;
+    }
+    
+    .blue{
+        background-color: blue;
+    }
+    
+    .clickButton{
+        box-shadow: 0 30px 40px 0 #dbddf3;
+        opacity: 0.5;
+        background-color: black;
+    }
+    
+    .bodyBackground{
+        background-color: rgb(223, 108, 108);
+    }
+.handset{
+            background-color: #4CAF50; 
+            color: white; 
+            border: none; 
+            padding: 15px 32px; 
+            text-align: center; 
+            text-decoration: none; 
+            display: inline-block; 
+            font-size: 44px; 
+            margin: 100px 25% 50px 25%; 
+            border-radius: 10px; 
+}
+.handset:hover{
+    background-color: #397c3b;
+}
+
+.addcsshandset{
+    display: none;
+}
+}
+
+
+@media (min-width:1201px){
+    
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        background-color: blanchedalmond;
+    }
+    h1{
+        font-family: cursive;
+        color: rgb(24, 201, 98);
+        font-size: 100px;
+        font-weight: bolder;
+        margin : 10px 20% 0px 30%;
+        justify-content: center;
+    }
+
+.boxs{
+    display: block;
+    justify-content: center;
+    margin : 100px 50px 50px 40%;
+    
+}
+
+.box{
+    max-width: 200px;
+    min-width: 200px;
+    min-height: 200px;
+    margin: 10px 10px 10px 10px;
+    border: 10px solid black;
+    border-width: 10px 10px 10px 10px;
+    border-radius: 10%;
+}
+
+.green{
+    background-color: green;
+    
+}
+
+.red{
+    background-color: red;
+}
+
+.yellow{
+    background-color: yellow;
+}
+
+.blue{
+    background-color: blue;
+}
+
+.clickButton{
+    box-shadow: 0 30px 40px 0 #dbddf3;
+    opacity: 0.5;
+    background-color: black;
+}
+
+.bodyBackground{
+    background-color: rgb(223, 108, 108);
+}
+.handset{
+        display: none;
+}
+}
+
