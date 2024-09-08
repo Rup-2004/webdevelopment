@@ -1,0 +1,8 @@
+#image1,#image2{
+    width: 900px;
+    height: 700px;
+}
+
+.anime{
+    filter:drop-shadow(12px 8px 10px orange);
+}

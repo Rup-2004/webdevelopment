@@ -1,0 +1,28 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+.box{
+    height: 200px;
+    width: 200px;
+}
+
+.first{
+    background-color: black;
+    border-radius: 15px;
+    content: "";
+    position: absolute;
+    z-index: 5;
+}
+
+
+.second{
+    background-color: black;
+    filter: blur(50px);
+    border-radius: 15px;
+    content: "";
+    animation: spin 2s linear infinite;
+    z-index: 1;
+}

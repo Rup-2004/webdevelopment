@@ -1,0 +1,33 @@
+*{
+    margin: 30px 50PX ;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.square{
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+}
+
+.linear{
+    background: linear-gradient(to right,#1abc9c,#3498db);
+}
+
+.radial{
+    background: radial-gradient(circle,#ff0000,#0000ff);
+}
+
+.repeating_linear{
+    background: repeating-linear-gradient(to right,#1abc9c,#3498db 20%);
+}
+
+.repeating_radial{
+    background: repeating-radial-gradient(circle,#ff0000,#0000ff 20%);
+}
+
+.conic{
+    background: conic-gradient(
+        from 45deg,red ,yellow,lime,aqua,blue,magenta,red
+    );
+}
